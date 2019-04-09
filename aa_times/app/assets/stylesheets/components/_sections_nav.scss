@@ -1,0 +1,18 @@
+.sectionNav {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  border-bottom: 1px solid $light-gray;
+}
+
+.sectionNav a {
+  padding: 4px;
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+}
+
+.sectionNav a:hover {
+  text-decoration: underline;
+  background-color: $light-gray;
+}
